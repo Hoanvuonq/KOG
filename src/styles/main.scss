@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
+.bg-kog {
+    background-image: url(../assets/background-kog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-custom {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.with-shadow {
+    font-weight: bold;
+    /* Để làm đậm chữ */
+    text-shadow: rgba(0, 12, 10, 0.5) 6px 8px 0px;
+    /* Bóng nằm ở dưới */
+}
+
+.all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-title {
+    font-size: 100px;
+    line-height: 150px;
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.text-content {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    font-family: cursive;
+}
+
+.shadow-custom {
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.1s;
+    &:hover {
+        transform: translateY(2px);
+    }
+}
+
+.shadow-box {
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.1s;
+}
+
+.text-btn {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #432627;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.text-title-box {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.text-content-box {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: cursive;
+    text-align: justify;
+}
+
+.text-title-token {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+}
+
+.text-token {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-family: cursive;
+}
+
+.scale-icon {
+    transition: transform 0.5s ease;
+    &:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
