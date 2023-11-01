@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
 
 .bg-custom {
-    background: rgba(0, 0, 0, 0.1);
+    background: url(../assets/meme-background.jpg);
 }
 
 .with-shadow {
@@ -44,7 +44,7 @@
 
 .blur-10 {
     backdrop-filter: blur(10px);
-    background: rgb(187 187 187 / 25%);
+    background: rgba(214, 214, 214, 0.156);
 }
 
 .shadow-box {
@@ -67,7 +67,8 @@
 }
 
 .text-content-box {
-    line-height: 120px;
+    font-size: 24px;
+    line-height: 36px;
     font-weight: 400;
     font-family: cursive;
 }
