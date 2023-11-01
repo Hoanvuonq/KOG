@@ -10,7 +10,7 @@ const Home = () => {
             <div className="w-full h-full">
                 <div className="all-center w-full pt-[100px] flex-col">
                     {/* <img src={Avatar} alt="Item EOG" className="sm:w-[400px] w-[300px] sm:h-[400px] h-[300px] rounded-full border-[6px] border-[#747474]" /> */}
-                    <h1 className="text-title text-orange-600 text-s sm:!text-[100px] !text-[80px] with-shadow">Bad Luck Brian </h1>
+                    <h1 className="text-title text-center text-orange-600 text-s sm:!text-[100px] !text-[80px] with-shadow">Bad Luck Brian </h1>
                     <p className="text-content text-orange-600 text-s text-center sm:px-0 px-2">CA : </p>
                     <p className="text-content text-orange-600 text-s text-center sm:px-0 px-2"></p>
                     <div className="all-center gap-10 mt-10 lg:flex-row flex-col">
