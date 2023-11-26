@@ -9,12 +9,14 @@
 body {
     max-height: 100vh;
     overflow: hidden;
+    
     @media (max-width: 768px) {
         overflow: auto;
     }
 }
 .bg-kog {
     background-image: url(../assets/background-kog-2.jpg);
+    height: 100vh;
 }
 
 .with-shadow {
@@ -82,13 +84,14 @@ body {
     line-height: 24px;
     font-weight: 400;
     font-family: 'SVN-Avo';
-    text-align: justify;
+    text-align: center;
+    overflow-wrap: break-word;
+    white-space: pre-line;
    
 
     @media (max-width: 768px) {
         font-size: 24px;
         line-height: 36px;
-        text-align: center;
         overflow-wrap: break-word;
         white-space: pre-line;
     }
