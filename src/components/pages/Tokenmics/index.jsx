@@ -5,20 +5,20 @@ const Tokenmics = () => {
     return (
         <>
             <div className="all-center flex-col">
-                <h1 className="text-title-box text-[60px] text-white mt-32">TOKENOMICS</h1>
-                <div className="all-center gap-20 lg:flex-row flex-col">
+                <h1 className="text-title-box sm:text-[20px] text-[60px] text-white sm:mt-2 mt-20">TOKENOMICS</h1>
+                <div className="all-center sm:gap-20 gap-10 lg:flex-row flex-col sm:mt-0 mt-10">
                     <div className="all-center flex-col">
                         <p className="text-title-token pb-1">Total Supply</p>
                         <Link to={'/'}>
-                            <button className="text-token text-white py-5 px-10 rounded-xl sm:w-[400px] w-[380px] h-[57px] shadow-custom  all-center border-4 border-white">
-                                '100,000,000 $FRONTMAIN
+                            <button className="text-token text-white py-3 px-5 rounded-xl sm:w-[180px] w-[280px] sm:h-6 h-14 shadow-custom  all-center border-4 border-white">
+                                1,000,000,000
                             </button>
                         </Link>
                     </div>
                     <div className="all-center flex-col">
                         <p className="text-title-token pb-1">Buys / Sells taxes</p>
                         <Link to={'/'}>
-                            <button className="text-token text-white py-5 px-10 rounded-xl sm:w-[400px] w-[380px] h-[57px] shadow-custom  all-center border-4 border-white">
+                            <button className="text-token text-white py-3 px-5 rounded-xl sm:w-[180px] w-[280px] sm:h-6 h-14 shadow-custom  all-center border-4 border-white">
                                 0% / 0%
                             </button>
                         </Link>
@@ -27,16 +27,16 @@ const Tokenmics = () => {
                     <div className="all-center flex-col">
                         <p className="text-title-token pb-1">LP BURNT</p>
                         <Link to={'/'}>
-                            <button className="text-token text-white py-5 px-10 rounded-xl sm:w-[400px] w-[380px] h-[57px] shadow-custom  all-center border-4 border-white">
+                            <button className="text-token text-white py-3 px-5 rounded-xl sm:w-[180px] w-[280px] sm:h-6 h-14 shadow-custom  all-center border-4 border-white">
                                 98.99%
                             </button>
                         </Link>
                     </div>
                 </div>
             </div>
-            <div className="all-center flex-col mt-20">
+            <div className="all-center flex-col sm:mt-5 mt-10">
                 <Link to={'/'}>
-                    <button className="text-token text-white sm:py-5 py-8 px-10 rounded-xl sm:w-[413px] sm:w-[400px] w-[380px] h-[57px] shadow-custom  all-center border-4 border-white">
+                    <button className="text-token text-white  py-3 px-2 rounded-xl sm:w-[180px] w-[330px] sm:h-6 h-14 shadow-custom  all-center border-4 border-white">
                         Ownership Renounced
                     </button>
                 </Link>

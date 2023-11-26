@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
-.bg-kog {
-    background-image: url(../assets/background-kog.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@font-face {
+    font-family: 'SVN-Avo'; 
+    src: url('../assets/font/SVN-Avo.ttf') format('truetype'); 
 }
 
-.bg-custom {
-    background: rgba(0, 0, 0, 0.1);
+body {
+    max-height: 100vh;
+    overflow: hidden;
+    @media (max-width: 768px) {
+        overflow: auto;
+    }
+}
+.bg-kog {
+    background-image: url(../assets/background-kog-2.jpg);
 }
 
 .with-shadow {
@@ -22,17 +29,20 @@
 }
 
 .text-title {
-    font-size: 100px;
-    line-height: 150px;
     font-weight: 400;
     font-family: 'Luckiest Guy', cursive;
 }
 
 .text-content {
     font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 16px;
+    line-height: 22px;
     font-family: cursive;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 .shadow-custom {
@@ -49,49 +59,78 @@
 }
 
 .text-btn {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 10px;
+    line-height: 24px;
     font-weight: 400;
     color: #432627;
     font-family: 'Luckiest Guy', cursive;
+
+    @media (max-width: 768px) {
+        font-size: 26px;
+        line-height: 36px;
+    }
 }
 
 .text-title-box {
-    line-height: 90px;
+    line-height: 36px;
     font-weight: 400;
     font-family: 'Luckiest Guy', cursive;
 }
 
 .text-content-box {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 12px;
+    line-height: 24px;
     font-weight: 400;
-    font-family: cursive;
+    font-family: 'SVN-Avo';
     text-align: justify;
+   
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        overflow-wrap: break-word;
+        white-space: pre-line;
+    }
 }
 
 .text-title-token {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 24px;
     text-align: center;
     color: #fff;
     font-family: cursive;
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 .text-token {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 12px;
+    line-height: 24px;
     font-weight: 400;
     font-family: 'Luckiest Guy', cursive;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 .text-footer {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 24px;
     color: #fff;
     font-family: cursive;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
 }
 
 .scale-icon {

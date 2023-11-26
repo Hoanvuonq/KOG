@@ -2,14 +2,16 @@ import React from 'react';
 
 const Meet = () => {
     return (
-        <div className="rounded-[40px] border-8 border-white shadow-lg backdrop-blur-md mt-32 w-[80%] p-8">
-            <div className="flex-col all-center sm:p-20 p-4">
-                <h1 className="text-title-box text-white text-center sm:text-[60px] text-[40px]">MEET $FRONTMAIN</h1>
-                <p className="text-content-box text-white pt-10">
-                    Hwang In-ho (Korean: 황인호), better known as the Front Man, also spelled as Frontman, 
-                    is the secondary antagonist of Season 1 of the 2021 South Korean Netflix drama Squid Game and 
-                    is set to return in Season 2 in some capacity. He is the leader of the Masked Men and the enigmatic 
-                    overseer of the Squid Game.
+        <div className="rounded-[40px] border-8 border-white shadow-lg backdrop-blur-md sm:mt-3 mt-20 sm:w-[44%] w-[90%] p-2">
+            <div className="flex-col all-center sm:p-2 p-4">
+                <h1 className="text-title-box text-white text-center sm:text-[20px] text-[60px] sm:pt-0 pt-6">MEET $AI</h1>
+                <p className="text-content-box text-white sm:pt-2 pt-8 text-center w-full">
+                    GrokOpenAIBardTaoGPT4PaLMSamAltmanClaudeMicrosoftSiriAlexaLLaMACortanaDalleEMidjourneyStableDif
+                    fusionTensorFlowHuggingFaceTayAutopilotNeuralinkJasperDuplexBertAlphDeepmindMegatronElizaBlueBr
+                    ainEinsteinCloudflareWatsonStanfordAIDungeonElevenLabsMetaMusenetWhisperJukeboxStabilityGrokOpe
+                    nAITAOBardGPT4PaLMSamAltmanClaudeMicrosoftSiriAlexaLLaMACortanaDalleEMidjourneyStableDiffusionT
+                    ensorFlowHuggingFaceTayAutopilotNeuralinkJasperDuplexBertAlphDeepmindMegatronElizaBlueBrainEins
+                    teinCloudflareWatsonStanfordAIDungeonElevenLabsMetaMusenetWhisperJukeboxStability
                 </p>
             </div>
         </div>
