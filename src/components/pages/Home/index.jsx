@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Avatar from "../../../assets/avatar2.jpg" 
+import Avatar from "../../../assets/background-kog-2.jpg" 
 import Tokenmics from "../Tokenmics";
 import Meet from "../Meet";
 import Footer from "../../layouts/Footer";
@@ -10,7 +10,7 @@ const Home = () => {
         <div className="bg-kog w-full h-full">  
             <div className="bg-[#01010178] w-full h-full flex flex-col justify-between">
                 <div className="all-center w-full pt-[20px] flex-col">
-                    <img src={Avatar} alt="Item EOG" className="sm:w-[150px] w-[200px] rounded-full border-[6px] border-[#FDF436]" />
+                    <img src={Avatar} alt="Item EOG" className="sm:w-[150px] w-[200px] rounded-full border-[6px] border-[#a4eeff]" />
                     <h1 className="text-title text-white text-s sm:!text-[30px] !text-[80px] sm:leading-[50px] with-shadow">$AI</h1>
                     <p className="text-content text-white text-center">CA : 0xe62BB48bbB7334b3EADf7F70b3F3E65c776F6507</p>
                     {/* <p className="text-content text-white text-center">AI The Squid Game</p> */}
