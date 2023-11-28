@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.00b8a8b1.css",
-    "main.js": "/static/js/main.f5e3d560.js",
+    "main.js": "/static/js/main.50cae6dc.js",
     "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
     "static/media/background-kog-3.png": "/static/media/background-kog-3.bc312960319ec65061cb.png",
     "index.html": "/index.html",
     "main.00b8a8b1.css.map": "/static/css/main.00b8a8b1.css.map",
-    "main.f5e3d560.js.map": "/static/js/main.f5e3d560.js.map"
+    "main.50cae6dc.js.map": "/static/js/main.50cae6dc.js.map"
   },
   "entrypoints": [
     "static/css/main.00b8a8b1.css",
-    "static/js/main.f5e3d560.js"
+    "static/js/main.50cae6dc.js"
   ]
 }

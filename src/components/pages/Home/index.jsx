@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="all-center w-full pt-[20px] flex-col">
                     <img src={Avatar} alt="Item EOG" className="sm:w-[150px] w-[200px] border-[4px] border-black rounded-full" />
                     <h1 className="text-title text-white text-s sm:!text-[30px] !text-[80px] sm:leading-[50px] with-shadow">$PRIME</h1>
-                    <p className="text-content text-white text-center sm:!text-base !text-xl max-w-[80%] overflow-hidden text-ellipsis whitespace-nowrap">CA : </p>
+                    <p className="text-content text-white text-center sm:!text-base !text-xl max-w-[80%] overflow-hidden text-ellipsis whitespace-nowrap">CA : 0x4938e35e85905e9ab7a23fe9eddac39e3d91649a</p>
                     {/* <p className="text-content text-white text-center">AI The Squid Game</p> */}
                     {/* <div className="all-center gap-10 mt-4 lg:flex-row flex-col">
                         <Link to={"#"} target="_blank">
