@@ -2,25 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 @font-face {
-    font-family: 'SVN-Avo'; 
-    src: url('../assets/font/SVN-Avo.ttf') format('truetype'); 
+    font-family: 'SVN-Avo';
+    src: url('../assets/font/SVN-Avo.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Berlin Sans FB';
+    src: url('../assets/font/berlin-sans-fb-cufonfonts/BRLNSR.TTF') format('truetype');
 }
 
 body {
     max-height: 100vh;
     overflow: hidden;
-    
+
     @media (max-width: 768px) {
         overflow: auto;
     }
 }
 .bg-kog {
-    background-image: url(../assets/background-kog-3.png);
+    background-image: url(../assets/bg-kog-version-4.png);
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 13% 90%;
     @media (max-width: 768px) {
-        height: auto
+        height: auto;
     }
-    
 }
 
 .with-shadow {
@@ -41,7 +47,7 @@ body {
 
 .text-content {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     font-family: cursive;
 
@@ -81,6 +87,10 @@ body {
     line-height: 36px;
     font-weight: 400;
     font-family: 'Luckiest Guy', cursive;
+
+    @media (max-width: 768px) {
+        line-height: 64px;
+    }
 }
 
 .text-content-box {
@@ -91,14 +101,23 @@ body {
     text-align: center;
     overflow-wrap: break-word;
     white-space: pre-line;
-   
 
     @media (max-width: 768px) {
         font-size: 24px;
         line-height: 36px;
+        text-align: justify;
         overflow-wrap: break-word;
         white-space: pre-line;
     }
+}
+
+.blur-10 {
+    backdrop-filter: blur(3px);
+    background: rgb(255 253 253 / 13%);
+}
+
+.blur-20 {
+    background: rgb(67 66 66 / 13%);
 }
 
 .text-title-token {
@@ -127,17 +146,16 @@ body {
 }
 
 .text-footer {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 10px;
     line-height: 24px;
-    color: #fff;
-    font-family: cursive;
+    color: #d0170d;
+    font-family: 'Berlin Sans FB';
 
     @media (max-width: 768px) {
         font-size: 12px;
         line-height: 24px;
     }
-
 }
 
 .scale-icon {
