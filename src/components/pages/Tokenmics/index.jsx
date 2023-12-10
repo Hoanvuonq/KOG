@@ -28,7 +28,7 @@ const Tokenmics = () => {
                         <p className="text-title-token pb-1">LP LOCKED</p>
                         <Link to={'/'}>
                             <button className="text-token text-white py-3 px-5 rounded-lg sm:w-[220px] w-[330px] sm:h-6 h-14 shadow-custom blur-20 all-center border-4 border-white">
-                                2 MONTHS
+                                FOREVER
                             </button>
                         </Link>
                     </div>
