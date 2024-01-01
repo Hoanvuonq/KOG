@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @font-face {
     font-family: 'SVN-Avo';
     src: url('../assets/font/SVN-Avo.ttf') format('truetype');
@@ -42,7 +43,7 @@ body {
 
 .text-title {
     font-weight: 400;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .text-content {
@@ -117,7 +118,7 @@ body {
 }
 
 .blur-20 {
-    background: rgb(67 66 66 / 13%);
+    background: rgba(159, 158, 158, 0.13);
 }
 
 .text-title-token {
