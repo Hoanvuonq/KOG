@@ -11,7 +11,7 @@ const Tokenmics = () => {
                         <p className="text-title-token pb-1">Total Supply</p>
                         <Link to={'/'}>
                             <button className="text-token text-white py-3 px-5 rounded-lg sm:w-[220px] w-[330px] sm:h-8 h-14 shadow-custom blur-20 all-center border-4 border-white">
-                                100,000,000,000,000
+                            720,000,000
                             </button>
                         </Link>
                     </div>
@@ -37,7 +37,7 @@ const Tokenmics = () => {
             <div className="all-center flex-col sm:mt-5 mt-10">
                 <Link to={'/'}>
                     <button className="text-token text-white py-3 px-2 rounded-lg sm:w-[220px] w-[330px] sm:h-8 h-14 shadow-custom blur-20 all-center border-4 border-white">
-                        Ownership Renounced
+                    OWNERSHIP RENOUNCED
                     </button>
                 </Link>
             </div>
