@@ -55,13 +55,13 @@ const Home = () => {
                         <img src={IconCoppy} width={14} height={14} alt="Icon Coppy" className="ml-2 w-4 h-4 cursor-pointer" /> </p>
                     <p className="text-content text-white text-center">EHCNALAVA - THE INVERSION OF AVALANCHE</p>
                     <div className="all-center gap-10 md:mt-4 mt-1 lg:flex-row flex-col">
-                        <Link to={"https://dexscreener.com/avalanche/0xeb875ff1cfcc20a3f1a4e1a16e20d8c1069f6347"} target="_blank">
+                        <Link to={"#"} target="_blank">
                             <button className="bg-white text-[#432627] sm:py-3 py-8 px-10 sm:rounded-lg rounded-xl sm:w-[160px] w-[315px] sm:h-7 h-9 shadow-custom text-btn all-center">dextools chart</button>
                         </Link>
-                        <Link to={"https://t.me/BonkInuAVAX"} target="_blank">
+                        <Link to={"#"} target="_blank">
                             <button className="bg-white text-[#432627] sm:py-3 py-8 px-10 sm:rounded-lg rounded-xl sm:w-[160px] w-[315px] sm:h-7 h-9 shadow-custom text-btn all-center">telegram</button>
                         </Link>
-                        <Link to={"https://twitter.com/BonkInuAVAX"} target="_blank">
+                        <Link to={"#"} target="_blank">
                             <button className="bg-white text-[#432627] sm:py-3 py-8 px-10 sm:rounded-lg rounded-xl sm:w-[160px] w-[315px] sm:h-7 h-9 shadow-custom text-btn all-center">twitter</button>
                         </Link>
                     </div>
